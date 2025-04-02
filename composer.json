@@ -17,14 +17,16 @@
         }
     ],
     "require": {
-
+        "php": ">=8.2"
     },
     "extra": {
         "laravel": {
             "providers": [
-              "ClientRoutes\\Providers\\ClientRouteProvider"
+                "ClientRoutes\\Providers\\ClientRouteProvider"
             ]
         }
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
