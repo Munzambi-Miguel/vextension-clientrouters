@@ -1,0 +1,30 @@
+{
+    "name": "vsaude/clientroutes",
+    "description": "Parte da aplicação responsavel para gerir outas dos clientes...",
+    "autoload": {
+        "psr-4": {
+            "ClientRoutes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Munzambi-Miguel",
+            "email": "munzambi.miguel@gmail.com"
+        },
+        {
+            "name": "Alvaro-Carmo",
+            "email": "alvaro.carmo@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "ClientRoutes\\Providers\\ClientRouteProvider"
+            ]
+        }
+    },
+    "version": "1.0.0"
+}
