@@ -3,7 +3,8 @@
     "description": "Parte da aplicação responsavel para gerir outas dos clientes...",
     "autoload": {
         "psr-4": {
-            "ClientRoutes\\": "src/"
+            "ClientRoutes\\": "src/",
+            "ClientRoutes\\App\\": "src/app/"
         }
     },
     "authors": [

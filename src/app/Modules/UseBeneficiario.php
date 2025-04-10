@@ -1,6 +1,6 @@
 <?php
 
-namespace Packages\ClientRouters\Src\App\Modules;
+namespace ClientRouters\App\Modules;
 
 use App\Models\Beneficiario\Beneficiario;
 
